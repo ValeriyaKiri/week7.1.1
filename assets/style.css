@@ -9,21 +9,21 @@
 
   height: 100vh;
   width: 100vw;
-  font-size: larger;
+  font-size: 2vw;
   font-weight: bolder;
   background-color: #74aeba;
 }
 
 .header {
   grid-area: header;
-  padding-top: 20px;
   text-align: center;
+  padding-top: 1em;
 }
 
 .main {
   display: grid;
   grid-area: main;
-  padding: 20px 4% 4% 4%;
+  padding: 1.25em 4% 4% 4%;
   text-align: center;
   background-color: #b6dcdd;
   gap: 4%;
@@ -43,28 +43,28 @@
 .section-1 {
   grid-area: section-1;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25em;
   background-color: #679385;
 }
 
 .section-2 {
   grid-area: section-2;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25em;
   background-color: #679385;
 }
 
 .section-3 {
   grid-area: section-3;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25em;
   background-color: #679385;
 }
 
 .aside {
   grid-area: aside;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25em;
   background-color: #507c7b;
 }
 
@@ -81,6 +81,6 @@
 
 .footer_section {
   text-align: center;
-  padding: 20px;
+  padding: 1.25em;
   background-color: #6fad98;
 }
